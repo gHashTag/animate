@@ -1,12 +1,12 @@
-import React, { Component } from 'react'
-import Banner from './components/banner'
+import React from 'react'
+import Door from './components/Door'
+import Gallery from './components/Gallery'
 
-class App extends Component {
-  render() {
-    return (
-      <Banner />
-    )
-  }
-}
+const App = () => (
+  <div>
+    <Door />
+    <Gallery />
+  </div>
+);
 
-export default App
+export default App 
