@@ -31,6 +31,7 @@ class Door extends PureComponent {
         <BoxAnimateRight tx={scroll / 3} distance={'90%'} ty={0} source={require('./image/Door.png')}/>
         <BoxAnimateRight tx={scroll / 1.5} distance={'70%'} ty={0} source={require('./image/Door.png')}/>
         <BoxAnimateRight tx={scroll} distance={'50%'} ty={0} source={require('./image/Door.png')}/>
+        {this.props.children}
       </div>
     )
   }

@@ -1,11 +1,9 @@
 import React from 'react'
-import Door from './components/Door'
-import Gallery from './components/Gallery'
+import Masters from './components/Masters'
 
 const App = () => (
   <div>
-    <Door />
-    <Gallery />
+    <Masters />
   </div>
 );
 

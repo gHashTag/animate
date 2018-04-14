@@ -5816,6 +5816,10 @@ react-error-overlay@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-4.0.0.tgz#d198408a85b4070937a98667f500c832f86bd5d4"
 
+react-native-hr@^1.1.4:
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/react-native-hr/-/react-native-hr-1.1.4.tgz#8079783adfc3cc3eb0923ada397523e050a719f7"
+
 react-native-swiper@^1.5.13:
   version "1.5.13"
   resolved "https://registry.yarnpkg.com/react-native-swiper/-/react-native-swiper-1.5.13.tgz#fa695cd4ab77b9a9df2d2bfee38ea7274dd07a2e"
@@ -5838,13 +5842,13 @@ react-native-web@^0.5.4:
     react-art "^16.2.0"
     react-timer-mixin "^0.13.3"
 
-react-plx@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/react-plx/-/react-plx-1.1.1.tgz#c92ae6d9936c699e7189903bf8091eacfcd66cd2"
+react-plx@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/react-plx/-/react-plx-1.1.2.tgz#01288b962dcc63696b9c2d1003b815a6472ce813"
   dependencies:
     bezier-easing "^2.0.3"
     prop-types "^15.5.8"
-    window-scroll-manager "^0.2.1"
+    window-scroll-manager "^0.2.2"
 
 react-responsive@^4.1.0:
   version "4.1.0"
@@ -7419,9 +7423,9 @@ widest-line@^2.0.0:
   dependencies:
     string-width "^2.1.1"
 
-window-scroll-manager@^0.2.1:
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/window-scroll-manager/-/window-scroll-manager-0.2.1.tgz#afc5014cc711aa52c910f835f354aa7b975dc18b"
+window-scroll-manager@^0.2.2:
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/window-scroll-manager/-/window-scroll-manager-0.2.2.tgz#311e947625251c56f8b09721029cd9e8fa753a11"
 
 window-size@0.1.0:
   version "0.1.0"
