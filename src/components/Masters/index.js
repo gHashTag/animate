@@ -24,20 +24,22 @@ const data = [
 
 
 export default class Masters extends PureComponent {
+  scroll = to => this.refs.parallax.scrollTo(to)
+
   renderMasters = () => {
-    return data.map(master => 
-      <Master 
-        ref={ref => this.parallax = ref}
-        master={master} key={master.id}/>
-    )
+    console.log('ref', this.refs.parallax)
+    return data.map(master => <Master 
+      onPress={() => this.scroll(master.id+1)}
+      master={master} 
+      key={master.id}/>)
   }
 
   render() {
     return (
       <Parallax 
-        ref={ref => this.parallax = ref}
+        ref="parallax"
         pages={3} horizontal scrolling={false}>
-        {this.renderMasters()}
+        {this.renderMasters(this.refs.parallax)}
       </Parallax>
     )
   }

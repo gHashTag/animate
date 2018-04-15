@@ -52,7 +52,8 @@ export default class Master extends PureComponent {
       <Parallax.Layer offset={id} speed={0.9}>
         <View style={{ position: 'absolute', width: '7%', top: '38%', right: '5%' }} >
           <Button
-            onPress={() => this.ref.parallax.scrollTo(id)}
+            onPress={onPress}
+            ref={this.props.refs}
             title="Next"
             color="#D1AE6C"
           />
