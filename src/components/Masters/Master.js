@@ -14,6 +14,7 @@ export default class Master extends PureComponent {
     const discription = info.substring(1)
     return (
       <React.Fragment>
+
         <Parallax.Layer offset={id} speed={0.9}>
           <Image 
             source={img} style={{ position: 'absolute', left: '0%', bottom: 0, width: 600, height: 600 }} />
@@ -49,10 +50,21 @@ export default class Master extends PureComponent {
         </View>
       </Parallax.Layer>
 
+
       <Parallax.Layer offset={id} speed={0.9}>
+        <View style={{ position: 'absolute', width: '7%', top: '38%', left: '5%' }} > 
+          { this.props.master.id !== 0 &&
+            <Button
+              onPress={this.props.onPressBack}
+              title="Back"
+              color="#D1AE6C"
+            />
+          }
+        </View>
+
         <View style={{ position: 'absolute', width: '7%', top: '38%', right: '5%' }} >
           <Button
-            onPress={this.props.onPress}
+            onPress={this.props.onPressNext}
             title="Next"
             color="#D1AE6C"
           />
