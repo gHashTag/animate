@@ -1,6 +1,8 @@
 import React, { PureComponent } from 'react'
 import { Button, Dimensions, Image, View, ProgressBar, Text } from 'react-native' // eslint-disable-line
 import Parallax from 'react-springy-parallax'
+import Animated from 'animated/lib/targets/react-dom'
+import Easing from 'animated/lib/Easing'
 import Master from './Master'
 import data from './data.json'
 
@@ -8,9 +10,7 @@ import data from './data.json'
 
 
 export default class Masters extends PureComponent {
-  state = {
-    current: 0 
-  }
+  state = { current: 0 }
 
   scroll = to => this.refs.parallax.scrollTo(to)
 
@@ -38,9 +38,10 @@ export default class Masters extends PureComponent {
   }
 
   render() {
-    console.log('current', this.state)
     return (
       <Parallax 
+        effect={(animation, toValue) =>
+        Animated.timing(animation, { toValue, opacity: 1, easing: Easing.elastic(4) })}
         ref="parallax"
         pages={17} horizontal scrolling={false}>
         {this.renderMasters()}
@@ -48,5 +49,3 @@ export default class Masters extends PureComponent {
     )
   }
 }
-        //<Page offset={1} title={data[1].title} subTitle={data[1].subTitle} onClick={() => this.scroll(2)} />
-        //<Page offset={2} title="Morbi quis" onClick={() => this.scroll(0)} />

@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react' 
-import { TouchableHighlight, Dimensions, Image, Button, View, ProgressBar, Text } from 'react-native' // eslint-disable-line
+import { TouchableOpacity, TouchableHighlight, Dimensions, Image, Button, View, ProgressBar, Text } from 'react-native' // eslint-disable-line
 import Parallax from 'react-springy-parallax'
 import AOS from 'aos'
 import '../aos.css'
@@ -10,16 +10,13 @@ AOS.init()
 export default class Master extends PureComponent {
   render() {
     const { id, title, subTitle, info, img } = this.props.master
-    const letter = info.charAt(0)
-    const discription = info.substring(1)
     return (
       <React.Fragment>
 
-        <Parallax.Layer offset={id} speed={0.1}>
+        <Parallax.Layer offset={id} speed={0.5} >
           <Image 
             source={img} style={{ position: 'absolute', left: '0%', bottom: 0, width: 600, height: 600 }} />
         </Parallax.Layer>
-
 
       <Parallax.Layer offset={id} speed={0.1}>
         <View style={{ position: 'absolute', top: '31vh', right: '15%', width: '40%' }}>
@@ -42,32 +39,34 @@ export default class Master extends PureComponent {
           <View style={{ flex: 1, flexDirection: 'row' }}>
             <Text style={{ fontSize: 15 }}>
               <Text style={{ fontSize: 35 }}>
-                {letter}
+                {info.charAt(0)}
               </Text>
-              {discription}
+              {info.substring(1)}
             </Text>
           </View>
         </View>
       </Parallax.Layer>
 
 
-      <Parallax.Layer offset={id} speed={0.1}>
+      <Parallax.Layer offset={id} speed={0.7}>
         <View style={{ position: 'absolute', width: '7%', top: '38%', left: '5%' }} > 
           { this.props.master.id !== 0 &&
-            <Button
-              onPress={this.props.onPressBack}
-              title="Back"
-              color="#D1AE6C"
-            />
+            <TouchableOpacity onPress={this.props.onPressBack}>
+              <Image
+                style={{ height: 100, width: 100 }}
+                source={require('./ArrowBack.png')}
+              />
+            </TouchableOpacity>
           }
         </View>
 
         <View style={{ position: 'absolute', width: '7%', top: '38%', right: '5%' }} >
-          <Button
-            onPress={this.props.onPressNext}
-            title="Next"
-            color="#D1AE6C"
-          />
+          <TouchableOpacity onPress={this.props.onPressNext}>
+            <Image
+              style={{ height: 100, width: 100 }}
+              source={require('./ArrowNext.png')}
+            />
+          </TouchableOpacity>
         </View>
       </Parallax.Layer>
 
