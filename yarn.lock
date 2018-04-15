@@ -5906,6 +5906,12 @@ react-slider@^0.11.2:
   version "0.11.2"
   resolved "https://registry.yarnpkg.com/react-slider/-/react-slider-0.11.2.tgz#ae014e1454c3cdd5f28b5c2495b2a08abd9971e6"
 
+react-spring@^4.1.2:
+  version "4.1.2"
+  resolved "https://registry.yarnpkg.com/react-spring/-/react-spring-4.1.2.tgz#086ce442585ee2eea7e82c2696a56283eedf7c29"
+  dependencies:
+    normalize-css-color "^1.0.2"
+
 react-springy-parallax@^1.3.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/react-springy-parallax/-/react-springy-parallax-1.3.0.tgz#e36d3483b98ffa445fb8aa5b22b4d70e195a8f2a"

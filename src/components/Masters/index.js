@@ -1,192 +1,46 @@
-import React from 'react'
-import { Dimensions, Image, View, Text } from 'react-native'
-import { One } from './image'
-import Plx from 'react-plx'
-import Door from '../Door'
+import React, { PureComponent } from 'react'
+import { Button, Dimensions, Image, View, ProgressBar, Text } from 'react-native' // eslint-disable-line
+import Parallax from 'react-springy-parallax'
+import Master from './Master'
 
-const win = Dimensions.get('window')
+//const win = Dimensions.get('window')
 
-const masterParallaxData = [
+const data = [
   {
-    start: 'self',
-    duration: 300,
-    end: 300,
-    properties: [
-      {
-        startValue: -100,
-        endValue: 10,
-        unit: '%',
-        property: "translateX"
-      },
-    ]
+    id: 0,
+    title: "Дмитрий Федеров",
+    subTitle: "System 432",
+    info: "Авторская гимнастика позволяющая на минимальном пространстве за 20 минут ежедневных упражнений запустить в себе энергию, мягко проработать проблемные зоны спины, растянуться и шаг за шагом благодаря гармонизирующим вибрациям в диапазоне 432 hz научиться отключаться от техногенного воздействия города.",
+    img: "http://игралила.рф/cityretreat/image/1.png",
   },
   {
-    start: 400,
-    start: 450,
-    duration: 300,
-    properties: [
-      {
-        startValue: 1,
-        endValue: 0,
-        property: "opacity"
-
-      }
-    ]
+    id: 1,
+    title: "Ольга Семичева",
+    subTitle: "Аштанга-Виньяса",
+    info: "По образованию я дизайнер интерьера, также долгое время работала фотографом. С йогой познакомилась 15 лет назад,и всё это время она она интересовала меня больше, чем моя профессиональная деятельность. \n Я практиковала: йогу Айенгара, йогу 23, Аштанга-Виньяса йогу (и преподавала её же изначально, с 2011 года), Ха-Тха и Кундалини-йогу.",
+    img: "http://игралила.рф/cityretreat/image/2.png",
   }
 ]
 
-const nameParallaxData = [
-  {
-    start: 'self',
-    end: 300,
-    duration: 300,
-    properties: [
-      {
-        startValue: 0,
-        endValue: -400,
-        property: "translateX"
-      },
-    ]
-  },
-  {
-    start: 400,
-    start: 450,
-    duration: 300,
-    properties: [
-      {
-        startValue: 1,
-        endValue: 0,
-        property: "opacity"
 
-      }
-    ]
+export default class Masters extends PureComponent {
+  renderMasters = () => {
+    return data.map(master => 
+      <Master 
+        ref={ref => this.parallax = ref}
+        master={master} key={master.id}/>
+    )
   }
-]
 
-const classParallaxData = [
-  {
-    start: 0,
-    end: 400,
-    duration: 300,
-    properties: [
-      {
-        startValue: 0,
-        endValue: 1,
-        property: "opacity"
-      },
-    ]
-  },
-  {
-    start: 400,
-    end: 700,
-    duration: 300,
-    properties: [
-      {
-        startValue: 1,
-        endValue: 0,
-        property: "opacity"
-      },
-    ]
+  render() {
+    return (
+      <Parallax 
+        ref={ref => this.parallax = ref}
+        pages={3} horizontal scrolling={false}>
+        {this.renderMasters()}
+      </Parallax>
+    )
   }
-]
-
-const lineParallaxData = [
-  {
-    start: 0,
-    end: 400,
-    duration: 300,
-    properties: [
-      {
-        startValue: 0,
-        endValue: 1,
-        property: "opacity"
-      },
-    ]
-  },
-  {
-    start: 400,
-    end: 700,
-    duration: 300,
-    properties: [
-      {
-        startValue: 1,
-        endValue: 0,
-        property: "opacity"
-      },
-    ]
-  }
-]
-console.log('win.width', win.width)
-
-const Masters = () => (
-  <View style={{ height: 4000 }}>
-      <Plx parallaxData={masterParallaxData}
-        animateWhenNotInViewport={true}
-        style={{
-          position: 'fixed',
-          bottom: '0vh'
-        }}
-      >
-        <Image source={One} style={{ width: 600, height: 600 }} />
-      </Plx>
-
-      <Plx parallaxData={nameParallaxData}
-        animateWhenNotInViewport={true}
-        style={{
-          position: 'fixed',
-          bottom: '65vh',
-          right: -300
-        }}
-      >
-        <Text 
-          style={{
-            fontSize: 30
-          }}
-        >
-          Дмитрий Федеров
-        </Text>
-      </Plx>
-
-      <Plx parallaxData={classParallaxData}
-        animateWhenNotInViewport={true}
-        style={{
-          position: 'fixed',
-          bottom: '60vh',
-          right: 100
-        }}
-      >
-        <Text 
-          style={{
-            fontSize: 20
-          }}
-        >
-          System 432
-        </Text>
-      </Plx>
-
-      <Plx parallaxData={classParallaxData}
-        animateWhenNotInViewport={true}
-        style={{
-          position: 'fixed',
-        }}
-      >
-        <View
-          style={{
-            borderBottomColor: 'gold',
-            width: '50%',
-            borderBottomWidth: 9,
-          }}
-        />
-        <Text 
-          style={{
-            fontSize: 20
-          }}
-        >
-          System 432
-        </Text>
-      </Plx>
-
-  </View>
-)
-
-export default Masters 
+}
+        //<Page offset={1} title={data[1].title} subTitle={data[1].subTitle} onClick={() => this.scroll(2)} />
+        //<Page offset={2} title="Morbi quis" onClick={() => this.scroll(0)} />
