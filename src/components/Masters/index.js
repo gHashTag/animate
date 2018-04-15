@@ -26,10 +26,14 @@ const data = [
 export default class Masters extends PureComponent {
   scroll = to => this.refs.parallax.scrollTo(to)
 
+  scrollPaging = () => {
+    console.log('master', master)
+    this.scroll(master.id+1)
+  }
+
   renderMasters = () => {
-    console.log('ref', this.refs.parallax)
     return data.map(master => <Master 
-      onPress={() => this.scroll(master.id+1)}
+      onPress={() => this.scrollPaging()}
       master={master} 
       key={master.id}/>)
   }
@@ -39,7 +43,7 @@ export default class Masters extends PureComponent {
       <Parallax 
         ref="parallax"
         pages={3} horizontal scrolling={false}>
-        {this.renderMasters(this.refs.parallax)}
+        {this.renderMasters()}
       </Parallax>
     )
   }

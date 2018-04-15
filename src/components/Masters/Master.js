@@ -9,7 +9,7 @@ import '../aos.css'
 AOS.init()
 export default class Master extends PureComponent {
   render() {
-    const { id, title, onPress, subTitle, info, img } = this.props.master
+    const { id, title, subTitle, info, img } = this.props.master
     const letter = info.charAt(0)
     const discription = info.substring(1)
     return (
@@ -52,8 +52,7 @@ export default class Master extends PureComponent {
       <Parallax.Layer offset={id} speed={0.9}>
         <View style={{ position: 'absolute', width: '7%', top: '38%', right: '5%' }} >
           <Button
-            onPress={onPress}
-            ref={this.props.refs}
+            onPress={this.props.onPress}
             title="Next"
             color="#D1AE6C"
           />
