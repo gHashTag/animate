@@ -15,13 +15,13 @@ export default class Master extends PureComponent {
     return (
       <React.Fragment>
 
-        <Parallax.Layer offset={id} speed={0.9}>
+        <Parallax.Layer offset={id} speed={0.1}>
           <Image 
             source={img} style={{ position: 'absolute', left: '0%', bottom: 0, width: 600, height: 600 }} />
         </Parallax.Layer>
 
 
-      <Parallax.Layer offset={id} speed={0.9}>
+      <Parallax.Layer offset={id} speed={0.1}>
         <View style={{ position: 'absolute', top: '31vh', right: '15%', width: '40%' }}>
           <ProgressBar color='#D1AE6C' progress={0.1} style={{ height: 4 }} trackColor='#D1AE6C' />
         </View>
@@ -51,7 +51,7 @@ export default class Master extends PureComponent {
       </Parallax.Layer>
 
 
-      <Parallax.Layer offset={id} speed={0.9}>
+      <Parallax.Layer offset={id} speed={0.1}>
         <View style={{ position: 'absolute', width: '7%', top: '38%', left: '5%' }} > 
           { this.props.master.id !== 0 &&
             <Button
