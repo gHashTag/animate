@@ -26,16 +26,16 @@
 .header {
   margin-left: 350px;
   font-size: 70px;
-  color: white;
+  color: #ccc;
 }
 
 .stripe {
-  height: 2px;
+  height: 4px;
   width: auto;
 }
 
 .slopeBegin {
-  background-color: #20232f;
+  background-color: #fff;
   clip-path: polygon(20vw 0, 70% 0, calc(70% - 20vw) 100%, 0 100%);
 }
 
@@ -52,7 +52,7 @@
 }
 
 .pink {
-  background: linear-gradient(to right, deeppink 0%, coral 100%);
+  background: linear-gradient(to right, #fff 0%, #D1AE6C 100%);
 }
 
 .teal {

@@ -1,15 +1,16 @@
-import React, { PureComponent } from 'react'
+import React, { Component } from 'react'
 import { Button, Dimensions, Image, View, ProgressBar, Text } from 'react-native' // eslint-disable-line
-import Parallax from 'react-springy-parallax'
+import { Parallax  } from 'react-spring'
 import Animated from 'animated/lib/targets/react-dom'
 import Easing from 'animated/lib/Easing'
 import Master from './Master'
 import data from './data.json'
+import './styles.css'
 
 //const win = Dimensions.get('window')
 
 
-export default class Masters extends PureComponent {
+export default class Masters extends Component {
   state = { current: 0 }
 
   scroll = to => this.refs.parallax.scrollTo(to)
@@ -40,10 +41,12 @@ export default class Masters extends PureComponent {
   render() {
     return (
       <Parallax 
-        effect={(animation, toValue) =>
-        Animated.timing(animation, { toValue, opacity: 1, easing: Easing.elastic(4) })}
+        className="container"
         ref="parallax"
-        pages={17} horizontal scrolling={false}>
+        pages={data.length} 
+        horizontal 
+        scrolling={false}
+      >
         {this.renderMasters()}
       </Parallax>
     )
