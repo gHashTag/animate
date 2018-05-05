@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-const url = 'http://localhost:3000'
+const url = 'http://localhost:3000/proxy'
 
 const body = {
   'Request_id': '7a6b8835-b8db-4413-a9f4-115c1ebe7b7c',
@@ -18,6 +18,7 @@ class FetchAPI extends Component {
   }
 
   async componentDidMount() {
+    try {
       const res = await fetch(url, {
         method: "POST",
         headers: new Headers({
@@ -27,10 +28,15 @@ class FetchAPI extends Component {
 
         body: JSON.stringify(body)
       })
-
-      const data = await res.json()
-      console.log('data', data)
+      console.log('res', res);
+      //const data = await res.json()
+      //console.log('data', data) 
+      
+    } catch (e) {
+      throw e
+    }
   }
+
 
   render() {
     return (

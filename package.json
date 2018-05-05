@@ -5,6 +5,8 @@
   "dependencies": {
     "animate.css": "^3.6.1",
     "aos": "^2.2.0",
+    "express": "^4.16.3",
+    "express-http-proxy": "^1.2.0",
     "google-map-react": "^0.34.0",
     "lodash": "^4.17.5",
     "prop-types": "^15.6.1",
@@ -43,6 +45,7 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
+  "proxy": "http://localhost:3000/proxy",
   "proxy": "https://cloud.1c.fitness/app02/199/hs/api/v1/",
   "devDependencies": {
     "babel-plugin-react-native-web": "^0.5.4",
