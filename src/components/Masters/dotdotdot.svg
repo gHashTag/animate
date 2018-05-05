@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>burger</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="burger" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Menu" transform="translate(27.000000, 85.000000)" fill="#BCBBBB" fill-rule="nonzero">
+            <g id="Group">
+                <circle id="Oval" cx="15.1" cy="15.1" r="15.1"></circle>
+                <circle id="Oval" cx="75.5" cy="15.1" r="15.1"></circle>
+                <circle id="Oval" cx="135.9" cy="15.1" r="15.1"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

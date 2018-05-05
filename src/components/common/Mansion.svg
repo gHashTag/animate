@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1640px" height="351px" viewBox="0 0 1640 351" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Mansion</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-5" transform="translate(-169.000000, -762.000000)">
+            <g id="Mansion" transform="translate(156.000000, 761.900000)">
+                <g id="TITLE" transform="translate(0.000000, 124.400000)" fill="#4A4A4A" font-family="SukhumvitSet-Thin, Sukhumvit Set" font-size="90" font-style="condensed" font-weight="300" letter-spacing="13.4850006" opacity="0.74">
+                    <g id="Title" transform="translate(0.000000, -0.000000)">
+                        <text id="Mansion-Copy-2">
+                            <tspan x="6.13589328" y="100.678928">MANSION</tspan>
+                        </text>
+                        <text id="Mansion-Copy-3">
+                            <tspan x="1143.63164" y="99">WELLNESS</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="Foundation" transform="translate(514.800000, 306.400000)" stroke="#9B9B9B">
+                    <g id="Rectangle">
+                        <rect stroke-width="2.4" x="1.2" y="34" width="580.8" height="8.8"></rect>
+                        <rect stroke-width="2.4" x="14" y="1.2" width="554.4" height="32"></rect>
+                    </g>
+                </g>
+                <g id="Stairs" transform="translate(927.600000, 316.000000)" stroke="#9B9B9B">
+                    <g id="Path-2">
+                        <polygon stroke-width="2.4" points="95.2 12.8 95.2 24.8 0 24.8 0 12.8"></polygon>
+                        <polygon stroke-width="2.4" points="86.4 0.8 86.4 12.8 8.8 12.8 8.8 0.8"></polygon>
+                    </g>
+                </g>
+                <g id="Door" transform="translate(950.800000, 203.200000)" stroke="#9B9B9B">
+                    <g>
+                        <path d="M25.2,104 L25.2,28.4" id="Path-8" stroke-width="2.4"></path>
+                        <path d="M20.4,71.2 L20.4,66.4" id="Path-8" stroke-width="2.4"></path>
+                        <path d="M29.2,71.2 L29.2,66.4" id="Path-8" stroke-width="2.4"></path>
+                        <polygon stroke-width="2.4" points="48.8 0 48.8 104 0 104 0 0"></polygon>
+                        <polygon stroke-width="2.4" points="41.6 12 41.6 104 8 104 8 12"></polygon>
+                        <path d="M8.17967914,28.4 L41.6,28.4" id="Line" stroke-width="2.4" stroke-linecap="square"></path>
+                    </g>
+                </g>
+                <g id="Window" transform="translate(865.600000, 205.600000)" stroke="#9B9B9B">
+                    <g id="Window2">
+                        <polygon id="Path-7" stroke-width="2.4" points="0 84.8 28.8 84.8 28.8 0 0 0"></polygon>
+                        <path d="M14.4,84.8 L14.4,2.7533531e-14" id="Path-8" stroke-width="2.4"></path>
+                        <path d="M5.46229728e-14,20.8 L28.8,20.8" id="Line" stroke-width="2.4" stroke-linecap="square"></path>
+                        <path d="M5.46229728e-14,60.8 L28.8,60.8" id="Line" stroke-width="2.4" stroke-linecap="square"></path>
+                    </g>
+                </g>
+                <g id="Window" transform="translate(796.400000, 205.600000)" stroke="#9B9B9B">
+                    <g id="Window2">
+                        <polygon id="Path-7" stroke-width="2.4" points="0 84.8 28.8 84.8 28.8 0 0 0"></polygon>
+                        <path d="M14.4,84.8 L14.4,2.7533531e-14" id="Path-8" stroke-width="2.4"></path>
+                        <path d="M5.46229728e-14,20.8 L28.8,20.8" id="Line" stroke-width="2.4" stroke-linecap="square"></path>
+                        <path d="M5.46229728e-14,60.8 L28.8,60.8" id="Line" stroke-width="2.4" stroke-linecap="square"></path>
+                    </g>
+                </g>
+                <g id="Window" transform="translate(729.200000, 205.600000)" stroke="#9B9B9B">
+                    <g id="Window2">
+                        <polygon id="Path-7" stroke-width="2.4" points="0 84.8 28.8 84.8 28.8 0 0 0"></polygon>
+                        <path d="M14.4,84.8 L14.4,2.7533531e-14" id="Path-8" stroke-width="2.4"></path>
+                        <path d="M5.46229728e-14,20.8 L28.8,20.8" id="Line" stroke-width="2.4" stroke-linecap="square"></path>
+                        <path d="M5.46229728e-14,60.8 L28.8,60.8" id="Line" stroke-width="2.4" stroke-linecap="square"></path>
+                    </g>
+                </g>
+                <g id="Window1" transform="translate(610.000000, 206.400000)" stroke="#9B9B9B">
+                    <g>
+                        <polygon id="Path-7" stroke-width="2.4" points="0.8 84.8 58.4 84.8 58.4 -1.38861145e-13 0.8 -1.38861145e-13"></polygon>
+                        <path d="M29.2,84.8 L29.2,20" id="Path-8" stroke-width="2.4"></path>
+                        <path d="M43.6,84.7304034 L43.6,-2.05696571e-14" id="Path-8" stroke-width="2.4"></path>
+                        <path d="M15.6,84.7300655 L15.6,3.41460409e-14" id="Path-8" stroke-width="2.4"></path>
+                        <path d="M0.902857143,20.4 L58.2971429,20.4" id="Line" stroke-width="2.4" stroke-linecap="square"></path>
+                        <path d="M0.902857143,60.4 L58.2971429,60.4" id="Line" stroke-width="2.4" stroke-linecap="square"></path>
+                    </g>
+                </g>
+                <g id="WindowUp5" transform="translate(950.800000, 118.400000)" stroke="#9B9B9B">
+                    <g>
+                        <path d="M25.2,63.2 L25.2,9.42001395e-14" id="Path-8" stroke-width="2.4"></path>
+                        <path d="M12.4,63.7911864 L12,0.8" id="Path-8" stroke-width="2.4"></path>
+                        <path d="M38,63.7911864 L37.6,0.8" id="Path-8" stroke-width="2.4"></path>
+                        <path d="M0,17.2 L48.8,17.2" id="Line" stroke-width="2.4" stroke-linecap="square"></path>
+                        <path d="M1.69586567e-13,47.6 L48.8,47.6" id="Line" stroke-width="2.4" stroke-linecap="square"></path>
+                        <path d="M48.8,64 L0,64 L0,11.5904924 C3.6030447,3.86349746 11.8896276,-6.40413648e-14 24.8597488,-6.61137811e-14 C37.82987,-6.61137811e-14 45.8099537,3.86349746 48.8,11.5904924 L48.8,64 Z" id="Path-5" stroke-width="2.4"></path>
+                    </g>
+                </g>
+                <g id="WindowUp" transform="translate(864.800000, 117.600000)" stroke="#9B9B9B">
+                    <g id="WindowUp2">
+                        <polygon id="Path-7" stroke-width="2.4" points="0.8 65.6 29.6 65.6 29.6 0.8 0.8 0.8"></polygon>
+                        <path d="M16,65.6 L16,0.8" id="Path-8" stroke-width="2.4"></path>
+                        <path d="M0.8,48 L29.6,48" id="Line" stroke-width="2.4" stroke-linecap="square"></path>
+                        <path d="M0.8,19.2 L29.6,19.2" id="Line" stroke-width="2.4" stroke-linecap="square"></path>
+                    </g>
+                </g>
+                <g id="WindowUp" transform="translate(795.600000, 117.600000)" stroke="#9B9B9B">
+                    <g id="WindowUp2">
+                        <polygon id="Path-7" stroke-width="2.4" points="0.8 65.6 29.6 65.6 29.6 0.8 0.8 0.8"></polygon>
+                        <path d="M16,65.6 L16,0.8" id="Path-8" stroke-width="2.4"></path>
+                        <path d="M0.8,48 L29.6,48" id="Line" stroke-width="2.4" stroke-linecap="square"></path>
+                        <path d="M0.8,19.2 L29.6,19.2" id="Line" stroke-width="2.4" stroke-linecap="square"></path>
+                    </g>
+                </g>
+                <g id="WindowUp" transform="translate(728.400000, 117.600000)" stroke="#9B9B9B">
+                    <g id="WindowUp2">
+                        <polygon id="Path-7" stroke-width="2.4" points="0.8 65.6 29.6 65.6 29.6 0.8 0.8 0.8"></polygon>
+                        <path d="M16,65.6 L16,0.8" id="Path-8" stroke-width="2.4"></path>
+                        <path d="M0.8,48 L29.6,48" id="Line" stroke-width="2.4" stroke-linecap="square"></path>
+                        <path d="M0.8,19.2 L29.6,19.2" id="Line" stroke-width="2.4" stroke-linecap="square"></path>
+                    </g>
+                </g>
+                <g id="WindowUp1" transform="translate(610.800000, 118.400000)" stroke="#9B9B9B">
+                    <g>
+                        <path d="M28.4,62.4 L28.4,9.30077327e-14" id="Path-8" stroke-width="2.4"></path>
+                        <path d="M11.6,62.9938983 L11.6,2.4" id="Path-8" stroke-width="2.4"></path>
+                        <path d="M44.4,62.9938983 L44.4,2.4" id="Path-8" stroke-width="2.4"></path>
+                        <path d="M0,47.6 L55.2,47.6" id="Line" stroke-width="2.4" stroke-linecap="square"></path>
+                        <path d="M1.63202785e-14,16.4 L55.2,16.4" id="Line" stroke-width="2.4" stroke-linecap="square"></path>
+                        <path d="M56,63.2 L0,63.2 L0,11.4456112 C4.13464146,3.81520374 13.643835,-3.95313412e-14 28.5275806,-4.15778523e-14 C43.4113262,-4.15778523e-14 52.5687993,3.81520374 56,11.4456112 L56,63.2 Z" id="Path-5" stroke-width="2.4"></path>
+                    </g>
+                </g>
+                <g id="Column" transform="translate(700.400000, 110.400000)" stroke="#9B9B9B">
+                    <g id="Column1" transform="translate(0.800000, 0.000000)">
+                        <rect id="Rectangle-2" stroke-width="2.4" x="1.2" y="164.424365" width="17.6" height="32.1746193"></rect>
+                        <path d="M5.14423948,1.28373669 L5.14423948,164.436548 L14.8557605,164.436548 L14.8557605,1.28373669 L5.14423948,1.28373669 Z" id="Rectangle-2" stroke-width="2.4"></path>
+                    </g>
+                </g>
+                <g id="Column" transform="translate(1024.400000, 110.400000)" stroke="#9B9B9B">
+                    <g id="Column1" transform="translate(0.800000, 0.000000)">
+                        <rect id="Rectangle-2" stroke-width="2.4" x="1.2" y="164.424365" width="17.6" height="32.1746193"></rect>
+                        <path d="M5.14423948,1.28373669 L5.14423948,164.436548 L14.8557605,164.436548 L14.8557605,1.28373669 L5.14423948,1.28373669 Z" id="Rectangle-2" stroke-width="2.4"></path>
+                    </g>
+                </g>
+                <g id="Column" transform="translate(766.800000, 110.400000)" stroke="#9B9B9B">
+                    <g id="Column1" transform="translate(0.800000, 0.000000)">
+                        <rect id="Rectangle-2" stroke-width="2.4" x="1.2" y="164.424365" width="17.6" height="32.1746193"></rect>
+                        <path d="M5.14423948,1.28373669 L5.14423948,164.436548 L14.8557605,164.436548 L14.8557605,1.28373669 L5.14423948,1.28373669 Z" id="Rectangle-2" stroke-width="2.4"></path>
+                    </g>
+                </g>
+                <g id="Column" transform="translate(834.800000, 110.400000)" stroke="#9B9B9B">
+                    <g id="Column1" transform="translate(0.800000, 0.000000)">
+                        <rect id="Rectangle-2" stroke-width="2.4" x="1.2" y="164.424365" width="17.6" height="32.1746193"></rect>
+                        <path d="M5.14423948,1.28373669 L5.14423948,164.436548 L14.8557605,164.436548 L14.8557605,1.28373669 L5.14423948,1.28373669 Z" id="Rectangle-2" stroke-width="2.4"></path>
+                    </g>
+                </g>
+                <g id="Column" transform="translate(903.000000, 110.400000)" stroke="#9B9B9B">
+                    <g id="Column1" transform="translate(0.800000, 0.000000)">
+                        <rect id="Rectangle-2" stroke-width="2.4" x="1.2" y="164.424365" width="17.6" height="32.1746193"></rect>
+                        <path d="M5.14423948,1.28373669 L5.14423948,164.436548 L14.8557605,164.436548 L14.8557605,1.28373669 L5.14423948,1.28373669 Z" id="Rectangle-2" stroke-width="2.4"></path>
+                    </g>
+                </g>
+                <g id="Column" transform="translate(564.400000, 110.400000)" stroke="#9B9B9B">
+                    <g id="Column1" transform="translate(0.800000, 0.000000)">
+                        <rect id="Rectangle-2" stroke-width="2.4" x="1.2" y="164.424365" width="17.6" height="32.1746193"></rect>
+                        <path d="M5.14423948,1.28373669 L5.14423948,164.436548 L14.8557605,164.436548 L14.8557605,1.28373669 L5.14423948,1.28373669 Z" id="Rectangle-2" stroke-width="2.4"></path>
+                    </g>
+                </g>
+                <g id="Side" transform="translate(534.652239, 110.214186)" stroke="#9B9B9B">
+                    <g id="Path-9">
+                        <path d="M20.5874718,1.21572004 L1.99434638,1.21572004 L1.99434638,197.8 L20.5874718,197.8 L20.5874718,1.21572004 Z" stroke-width="2.4"></path>
+                    </g>
+                </g>
+                <g id="Side" transform="translate(1053.004162, 109.372837)" stroke="#9B9B9B">
+                    <g id="Path-9">
+                        <path d="M20.5874718,1.21572004 L1.99434638,1.21572004 L1.99434638,197.8 L20.5874718,197.8 L20.5874718,1.21572004 Z" stroke-width="2.4"></path>
+                    </g>
+                </g>
+                <g id="Roof" transform="translate(527.600000, 64.000000)">
+                    <g transform="translate(0.000000, 0.800000)">
+                        <polygon id="Path-6" stroke="#9B9B9B" stroke-width="2.4" points="8.54368687 46.4 1.6 37.6 558.4 37.6 549.125192 45.9672965"></polygon>
+                        <polygon id="Path-6" stroke="#9B9B9B" stroke-width="2.4" points="6.94368687 20.8 -2.27373675e-13 12 556.8 12 547.525192 20.3672965"></polygon>
+                        <path d="M7.40566492,21.176967 L7.40566492,37.4535926" id="Path-3" stroke="#9B9B9B" stroke-width="2.4"></path>
+                        <path d="M546.605665,20.9710996 L546.605665,37.4535926" id="Path-3" stroke="#9B9B9B" stroke-width="2.4"></path>
+                        <polyline id="Path-4" stroke="#979797" stroke-width="2.4" points="375.2 12 375.2 0 398.4 0 398.4 12"></polyline>
+                        <polyline id="Path-4" stroke="#979797" stroke-width="2.4" points="303.2 12 303.2 0 326.4 0 326.4 12"></polyline>
+                        <polyline id="Path-4" stroke="#979797" stroke-width="2.4" points="239.2 12 239.2 0 262.4 0 262.4 12"></polyline>
+                        <polyline id="Path-4" stroke="#979797" stroke-width="2.4" points="168.8 12 168.8 0 192 0 192 12"></polyline>
+                        <polyline id="Path-4" stroke="#979797" stroke-width="2.4" points="502.4 12 502.4 0 525.6 0 525.6 12"></polyline>
+                        <polyline id="Path-4" stroke="#979797" stroke-width="2.4" points="32 12 32 0 55.2 0 55.2 12"></polyline>
+                    </g>
+                </g>
+                <g id="Penthhouse" transform="translate(591.600000, 0.000000)">
+                    <g>
+                        <g id="Group-5" transform="translate(10.400000, 9.600000)" stroke-width="2.4">
+                            <path d="M309.8,54.4003731 L309.8,0.8" id="Path-8" stroke="#9B9B9B"></path>
+                            <path d="M288.2,67.2003012 L288.2,0.797187562" id="Path-8" stroke="#9B9B9B"></path>
+                            <path d="M361.8,67.2 L361.8,1.19969697" id="Path-8" stroke="#9B9B9B"></path>
+                            <path d="M237,55.2003676 L237,0.8" id="Path-8" stroke="#9B9B9B"></path>
+                            <path d="M386.6,67.2 L386.6,1.99969325" id="Path-8" stroke="#9B9B9B"></path>
+                            <path d="M209.8,67.2003012 L209.8,0.799693252" id="Path-8" stroke="#9B9B9B"></path>
+                            <path d="M183.4,54.4003731 L183.4,0.799622609" id="Path-8" stroke="#9B9B9B"></path>
+                            <path d="M132.2,67.2003012 L132.2,0.799691359" id="Path-8" stroke="#9B9B9B"></path>
+                            <path d="M111.4,54.4003731 L111.4,0.8" id="Path-8" stroke="#9B9B9B"></path>
+                            <path d="M56.2,67.2003012 L56.2,0.797222282" id="Path-8" stroke="#9B9B9B"></path>
+                            <path d="M28.2,66.4 L28.2,0.799695123" id="Path-8" stroke="#9B9B9B"></path>
+                            <path d="M2.27429187e-13,19.2 L79.2,19.2" id="Path-11" stroke="#979797"></path>
+                            <path d="M2.77555756e-17,40.8 L79.2,40.8" id="Path-11" stroke="#979797"></path>
+                            <path d="M340,19.2 L409.6,19.2" id="Path-11" stroke="#979797"></path>
+                            <path d="M339.2,40.8 L409.382122,40.8" id="Path-11" stroke="#979797"></path>
+                            <path d="M90.4,19.2 L151.064303,19.2" id="Path-11" stroke="#979797"></path>
+                            <path d="M90.4,40.8 L150.264304,40.8" id="Path-11" stroke="#979797"></path>
+                            <path d="M161.6,19.30444 L257.6,19.2" id="Path-11" stroke="#979797"></path>
+                            <path d="M161.6,40.9030627 L257.362926,40.9030627" id="Path-11" stroke="#979797"></path>
+                            <path d="M268.8,19.2 L329.064981,19.2" id="Path-11" stroke="#979797"></path>
+                            <path d="M268.8,40.8 L328.664304,40.8" id="Path-11" stroke="#979797"></path>
+                        </g>
+                        <path d="M340.4,76.4 L349.2,76.4 L349.2,10 L422,10 L422,76.4 L430,76.4 L430,1.2 L1.2,1.2 L1.2,76.4 L9.2,76.4 L9.2,10 L90.8,10 L90.8,76.4 L99.6,76.4 L99.6,10 L162,10 L162,76.4 L170.8,76.4 L170.8,10 L269.2,10 L269.2,76.4 L278,76.4 L278,10 L340.4,10 L340.4,76.4 Z" id="Combined-Shape" stroke="#979797" stroke-width="2.4" fill-rule="nonzero"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

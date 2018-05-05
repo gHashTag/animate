@@ -1,0 +1,29 @@
+{
+  "players": 
+  [
+    { 
+      "lastname": "Руни", 
+      "firstname": "Уэйн", 
+      "team": "Эвертон", 
+      "citizen": "Великобритания" 
+    },
+    { 
+      "lastname": "Ronaldo", 
+      "firstname": "Krir", 
+      "team": "Эвертон", 
+      "citizen": "Великобритания" 
+    },
+    { 
+      "lastname": "Kitil", 
+      "firstname": "Kligun", 
+      "team": "Chicabo", 
+      "citizen": "Канада" 
+    },
+    { 
+      "lastname": "Mickle", 
+      "firstname": "Jordan", 
+      "team": "Chicago Bulls", 
+      "citizen": "Chicago" 
+    }
+  ]
+}

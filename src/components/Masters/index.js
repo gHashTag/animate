@@ -1,54 +1,16 @@
-import React, { Component } from 'react'
-import { Button, Dimensions, Image, View, ProgressBar, Text } from 'react-native' // eslint-disable-line
-import { Parallax  } from 'react-spring'
-import Animated from 'animated/lib/targets/react-dom'
-import Easing from 'animated/lib/Easing'
-import Master from './Master'
-import data from './data.json'
-import './styles.css'
+import React from 'react'
+import { Helmet } from 'react-helmet'
+import Masters from './Masters'
 
-//const win = Dimensions.get('window')
-
-
-export default class Masters extends Component {
-  state = { current: 0 }
-
-  scroll = to => this.refs.parallax.scrollTo(to)
-
-  scrollNext = ({ master, data }) => {
-    if(data.length === master.id+1) {
-      this.scroll(0)
-      this.setState({ current: 0 })
-    } else {
-      this.scroll(master.id+1)
-      this.setState({ current: master.id+1 })
-    }
-  }
-
-  scrollBack = ({ master, data }) => {
-      this.scroll(this.state.current-1)
-      this.setState({ current: master.id-1 })
-  }
-
-  renderMasters = () => {
-    return data.map(master => <Master 
-      onPressNext={() => this.scrollNext({ master, data })}
-      onPressBack={() => this.scrollBack({ master, data })}
-      master={master} 
-      key={master.id}/>)
-  }
-
-  render() {
-    return (
-      <Parallax 
-        className="container"
-        ref="parallax"
-        pages={data.length} 
-        horizontal 
-        scrolling={false}
-      >
-        {this.renderMasters()}
-      </Parallax>
-    )
-  }
-}
+export default () => (
+  <div>
+    <Helmet>
+      <meta charSet="utf-8" />
+      <title>Мастера·Mansion Wellness</title>
+      <link rel="canonical" href="http://cityretreat.ru/master/felikspak" />
+      <meta name="keywords" content="йога, сити ретрит, spa, wellness, спа, велнес"/>
+      <meta name="description" content="Особняк в центре Москвы, где вы можете насладиться здоровым образом жизни, расслабиться и восстановить силы. Уникальный формат Центра – сочетание современных высокотехнологичных систем лечения с древними традициями оздоровительных практик. Обучение методикам омоложения, принципам осознанного отношения к здоровью, питанию, избавлению от зависимостей."/>
+    </Helmet>
+    <Masters /> 
+  </div>
+)

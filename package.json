@@ -5,6 +5,9 @@
   "dependencies": {
     "animate.css": "^3.6.1",
     "aos": "^2.2.0",
+    "google-map-react": "^0.34.0",
+    "lodash": "^4.17.5",
+    "prop-types": "^15.6.1",
     "rc-animate": "^2.4.4",
     "rc-banner-anim": "^1.0.1",
     "rc-queue-anim": "^1.4.1",
@@ -12,16 +15,25 @@
     "rc-tween-one": "^1.7.3",
     "react": "^16.3.0",
     "react-animate-on-scroll": "^2.1.3",
+    "react-burger-menu": "^2.4.2",
     "react-dom": "^16.3.0",
+    "react-helmet": "^5.2.0",
+    "react-hover-image": "^1.0.0",
+    "react-hover-observer": "^2.1.0",
     "react-native-hr": "^1.1.4",
     "react-native-swiper": "^1.5.13",
+    "react-native-vector-icons": "^4.6.0",
     "react-native-web": "^0.5.4",
     "react-plx": "^1.1.2",
     "react-responsive": "^4.1.0",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
     "react-scripts": "1.1.1",
+    "react-select": "^1.2.1",
     "react-slider": "^0.11.2",
     "react-spring": "^4.1.2",
     "react-springy-parallax": "^1.3.0",
+    "react-transition-group": "^2.3.1",
     "react-waypoint": "^8.0.1",
     "styled-components": "^3.2.5"
   },
@@ -31,7 +43,10 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
+  "proxy": "https://cloud.1c.fitness/app02/199/hs/api/v1/",
   "devDependencies": {
-    "babel-plugin-react-native-web": "^0.5.4"
+    "babel-plugin-react-native-web": "^0.5.4",
+    "eslint": "^4.19.1",
+    "eslint-config-equimper": "^2.2.2"
   }
 }
